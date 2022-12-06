@@ -12,9 +12,9 @@
 			<th>Customer Name</th>
 			<th>Share</th>
 		</tr>
-		<tr th:each="customerShare : ${customerShares}">
-			<td th:text="${customerShare.shareName}"></td>
-			<td th:text="${customerShare.customer}"></td>
+		<tr th:each="customerShare : ${customerShareList}">
+			<td th:text="${customerShare.customerId}"></td>
+			<td th:text="${customerShare.shareID}"></td>
 		</tr>
 	</table>
 </body>

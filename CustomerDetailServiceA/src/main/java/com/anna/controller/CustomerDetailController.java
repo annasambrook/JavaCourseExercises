@@ -28,7 +28,7 @@ public class CustomerDetailController {
 		
 		List<CustomerShare> customerShares=customerDetailService.getCustomerShareByCustomerId(customerId);
 		
-		modelAndView.addObject("customerShares", customerShares);
+		modelAndView.addObject("customerShareList", customerShares);
 		modelAndView.addObject("customerId", customerId);
 		modelAndView.setViewName("ShowShare");
 		return modelAndView;
