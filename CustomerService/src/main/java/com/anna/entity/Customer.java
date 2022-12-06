@@ -19,17 +19,17 @@ public class Customer {
 	
 	@Id
 	@Column(name ="detailId")
-	String detailId;
+	private String detailId;
 	
 	@Column(name ="customerId")
-	int customerId;
+	private int customerId;
 	
 	@Column(name ="shareId")
-	int shareId;
+	private int shareId;
 	
 	@Column(name ="shareType")
-	String shareType;
+	private String shareType;
 	
 	@Column(name ="quantity")
-	int quantity;
+	private int quantity;
 }

@@ -11,5 +11,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CustomerList {
 
-	List<Customer> customers;
+	private List<Customer> customers;
 }
